@@ -8,4 +8,4 @@ Tools Used:
 - GitHub
 
 Live Website:
-https://your-lovable-link
+https://hyderabad-glow-web.lovable.app
