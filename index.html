@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Beauty Salon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5f7;
+        }
+        header {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cta button {
+            background-color: #ff4d6d;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Glow Beauty Salon</h1>
+    <p>Glow with Confidence</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>Welcome to Glow Beauty Salon — your go-to destination for beauty and self-care in Hyderabad. We provide professional services to help you look and feel your best.</p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Facial Treatments</h3>
+            <p>Deep cleansing and glowing skin treatments for all skin types.</p>
+        </div>
+        <div class="card">
+            <h3>Hair Styling</h3>
+            <p>Trendy haircuts and styling tailored to your personality.</p>
+        </div>
+        <div class="card">
+            <h3>Hair Coloring</h3>
+            <p>Professional coloring services with premium products.</p>
+        </div>
+        <div class="card">
+            <h3>Bridal Makeup</h3>
+            <p>Look stunning on your special day with expert makeup.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Book Your Appointment Today!</h2>
+    <button onclick="bookNow()">Book Now</button>
+</section>
+
+<footer>
+    <p>© 2026 Glow Beauty Salon | Hyderabad</p>
+</footer>
+
+<script>
+    function bookNow() {
+        alert("Thank you! Booking feature coming soon.");
+    }
+</script>
+
+</body>
+</html>
